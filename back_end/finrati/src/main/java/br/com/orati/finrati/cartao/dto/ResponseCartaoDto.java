@@ -18,8 +18,8 @@ public class ResponseCartaoDto {
     private UUID idConta;
     private String nome;
     private BigDecimal limite;
-    private int diaFechamento;
-    private int diaVencimento;
+    private Integer diaFechamento;
+    private Integer diaVencimento;
     private LocalDateTime criadoEm;
     private LocalDateTime atualizadoEm;
 }

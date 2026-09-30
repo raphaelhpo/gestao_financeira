@@ -16,6 +16,6 @@ public class UpdateCartaoDto {
     private UUID idConta;
     private String nome;
     private BigDecimal limite;
-    private int diaFechamento;
-    private int diaVencimento;
+    private Integer diaFechamento;
+    private Integer diaVencimento;
 }

@@ -34,9 +34,9 @@ public class Cartao {
     @Column(name = "limite")
     private BigDecimal limite;
     @Column(name = "dia_fechamento")
-    private int diaFechamento;
+    private Integer diaFechamento;
     @Column(name = "dia_vencimento")
-    private int diaVencimento;
+    private Integer diaVencimento;
     @Column(name = "criado_em")
     private LocalDateTime criadoEm;
     @Column(name = "atualizado_em")
